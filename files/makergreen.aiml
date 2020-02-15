@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<aiml version="1.0">
+    
+<category>
+<pattern>HOW MANY DAYS _ KKUMAKERGREEN DAY</pattern>
+<template><srai>how many days to kkumakergreen day</srai></template>
+</category>
+
+<category>
+<pattern>HOW MANY DAYS _ KKUMAKERGREEN</pattern>
+<template><srai>how many days to kkumakergreen day</srai></template>
+</category> 
+
+<category>
+<pattern>HOW LONG _ KKUMAKERGREEN</pattern>
+<template><srai>how many days to kkumakergreen day</srai></template>
+</category> 
+
+<category>
+<pattern>HOW LONG _ KKUMAKERGREEN DAY</pattern>
+<template><srai>how many days to kkumakergreen day</srai></template>
+</category> 
+
+<category> 
+<pattern>HOW MANY DAYS _ KKUMAKERGREEN DAY</pattern> 
+<template> 
+<think><set name="day"><date format="%A"/></set></think>
+    <condition name="day">
+        <li value="Saturday">
+            <random>
+                <li>Well today is <date format="%B %d"/> so that means that it is 6 days until KKUMakerGreen Day.</li>
+                <li>It is 6 days until KKUMakerGreen Day.</li>
+                <li>From <date format="%B %d"/> to KKUMakerGreen Day is 6 days.</li>
+                <li>According to my calendar, we have 6 days to go before KKUMakerGreen Day.</li>
+            </random>
+        </li>
+        <li value="Sunday">
+            <random>
+                <li>Well today is <date format="%B %d"/> so that means that it is 5 days until KKUMakerGreen Day.</li>
+                <li>It is 5 days until KKUMakerGreen Day.</li>
+                <li>From <date format="%B %d"/> to KKUMakerGreen Day is 5 days.</li>
+                <li>According to my calendar, we have 5 days to go before KKUMakerGreen Day.</li>
+            </random>
+        </li>
+        <li value="Monday">
+            <random>
+                <li>Well today is <date format="%B %d"/> so that means that it is 4 days until KKUMakerGreen Day.</li>
+                <li>It is 4 days until KKUMakerGreen Day.</li>
+                <li>From <date format="%B %d"/> to KKUMakerGreen Day is 4 days.</li>
+                <li>According to my calendar, we have 4 days to go before KKUMakerGreen Day.</li>
+            </random>
+        </li>
+        <li value="Tuesday">
+            <random>
+                <li>Well today is <date format="%B %d"/> so that means that it is 3 days until KKUMakerGreen Day.</li>
+                <li>It is 3 days until KKUMakerGreen Day.</li>
+                <li>From <date format="%B %d"/> to KKUMakerGreen Day is 3 days.</li>
+                <li>According to my calendar, we have 3 days to go before KKUMakerGreen Day.</li>
+            </random>
+        </li>
+        <li value="Wednesday">
+            <random>
+                <li>Well today is <date format="%B %d"/> so that means that it is 2 days until KKUMakerGreen Day.</li>
+                <li>It is 2 days until KKUMakerGreen Day.</li>
+                <li>From <date format="%B %d"/> to KKUMakerGreen Day is 2 days.</li>
+                <li>According to my calendar, we have 2 days to go before KKUMakerGreen Day.</li>
+            </random>
+        </li>
+        <li value="Thursday">
+            <random>
+                <li>Well today is <date format="%B %d"/> so that means that it is 1 days until KKUMakerGreen Day.</li>
+                <li>It is 1 days until KKUMakerGreen Day.</li>
+                <li>From <date format="%B %d"/> to KKUMakerGreen Day is 1 days.</li>
+                <li>According to my calendar, we have 1 days to go before KKUMakerGreen Day.</li>
+            </random>
+        </li>
+        <li value="Friday">Today is KKUMakerGreen Day !</li>
+    </condition>
+</template> 
+</category> 
+
+
+
+
+</aiml>

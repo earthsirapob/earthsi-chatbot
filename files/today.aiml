@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>Today is *</pattern>
+	    <template>
+	        <condition name="today">
+	            <li value = "Monday">The start of the work week!</li>
+	            <li value = "Tuesday">Tuesday already?</li>
+	            <li value = "Wednesday">Humpday, we're halfway to the weekend!</li>
+	        </condition>
+	    </template>
+	</category>
+</aiml>
